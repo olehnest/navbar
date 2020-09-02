@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Navigation Bar</title>
-	<link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Menu and API in Javascript</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
-</head>
-<body>
-	<nav>
-		<div class="logo">
-			<h4> NAV BAR </h4>
-		</div>
+  </head>
+  <body>
+    <nav>
+        <div class="logo">
+            <h4>UA PICTURES</h4>
+        </div>
         <ul class="nav-links">
-				<li><a href="#"> home </a></li>
-				<li><a href="#"> about </a></li>
-				<li><a href="#"> contacts </a></li>
-				<li><a href="#"> business </a></li>
-			</ul>
-            <div class="burger">
-    <div class="line-1"></div>
-    <div class="line-2"></div>
-    <div class="line-3"></div>
-
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contacts</a></li>
+            <li><a href="#">blog</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+    </nav>
+    <div class="buttonImage">
+      <div class="fetchImagesWrapper">
+        <button class="getImagesButton">
+          GET AN IMAGE
+        </button>
+      </div>
+      <div class="imageDisplayWrapper">
+        <img
+          class="imageToDisplay"
+        />
+      </div>
     </div>
-	</nav>
-    
-
-
-</body>
-<script src="js/javascript.js"></script>
-
+  </body>
+  <script src="script.js"></script>
 </html>
